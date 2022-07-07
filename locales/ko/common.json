@@ -1,0 +1,46 @@
+{
+  "game": "전",
+  "win": "승",
+  "losse": "패",
+  "rate": "승률",
+  "winer": "승리",
+  "losser": "패배",
+  "m": "분",
+  "s": "초",
+  "level": "레벨",
+  "P/Kill": "킬관여",
+  "control_ward": "제어 와드",
+
+  "Top": "탑",
+  "Middle": "미드",
+  "Jungle": "정글",
+  "Bottom": "원딜",
+  "Support": "서포터",
+
+  "baner_placeholder": "소환사명,챔피언…",
+  "recent": "최근검색",
+  "favorite": "즐겨찾기",
+
+  "ladder_rank": "레더랭킹 <span>{{rank}}</span>위 ",
+  "of_top": "상위 <span>{{percent}}%</span>",
+  "rank_0": "솔로 랭크",
+  "rank_1": "자유 5:5 랭크",
+  "line_played": "<span1>{{line}}</span1> (총 <span2>{{games}}</span2> 게임)",
+
+  "Champion_Win_Ratio": "챔피언 승률",
+  "Rank_per_week": "7일간 랭크 승률",
+
+  "champion_name": "{{name}}",
+  "grade": "평점",
+  "played": " 게임",
+
+  "not_champion": "챔피언 정보가 없습니다.",
+  "preferred_position": "선호 포지션 (랭크)",
+
+  "total": "전체",
+  "ranked_solo": "솔로게임",
+  "ranked_flex": "자유랭크",
+  "솔랭": "솔랭",
+  "자유 5:5 랭크": "자유 5:5 랭크",
+  "일반": "일반"
+}

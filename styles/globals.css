@@ -1,0 +1,255 @@
+html,
+body {
+  min-width: 1000px;
+  padding: 0;
+  margin: 0;
+  background-color: #eaeaea;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+:root {
+  --scarlet: #d0021b;
+  --warm-grey: #727272;
+  --slate-grey: #657070;
+  --silver: #e0e3e3;
+  --tomato: #ec4f48;
+  --silver-two: #d0d3d4;
+  --dull-yellow: #eabd56;
+  --white-four: #f2f2f2;
+  --silver-three: #cdd2d2;
+  --gunmetal: #555e5e;
+  --white-five: #ededed;
+  --brownish-grey: #5e5e5e;
+  --bluey-green: #2daf7f;
+  --reddish: #c6443e;
+  --coral: #ee5a52;
+  --greyish-brown: #555;
+  --brownish-grey-two: #666;
+  --black: #333;
+  --warm-grey-two: #999;
+  --yellow-ochre: #e19205;
+  --pinkish-grey: #d6b5b2;
+  --pinkish-grey-two: #c0aba8;
+  --light-blue-grey: #b0ceea;
+  --light-grey-blue: #a1b8cd;
+  --pinkish-tan: #e89c95;
+  --brownish-pink: #c8817c;
+  --greyish: #b6b6b6;
+  --greyish-two: #a7a7a7;
+  --pinkish-grey-three: #d0a6a5;
+  --light-grey-blue-two: #94b9d6;
+  --ugly-blue: #2c709b;
+  --black-two: #000;
+  --warm-grey-three: #948e8d;
+  --reddish-two: #bf3b36;
+  --amethyst: #8c51c5;
+  --warm-purple: #7f3590;
+  --greyblue: #7aa5c3;
+  --pinkish-grey-four: #cb9e9a;
+  --warm-grey-four: #979797;
+  --perrywinkle: #7fb0e1;
+  --cool-blue: #549dc7;
+  --charcoal: #242929;
+  --ocean-blue: #04609e;
+  --reddish-three: #c1433e;
+  --bluish: #1f8ecd;
+  --dark-grey: #353a3a;
+  --sandy: #f6e08f;
+  --dull-orange: #ca9a2c;
+  --dark: #2c3548;
+}
+
+@font-face {
+  font-family: AppleSDGothicNeo;
+  src: local(AppleSDGothicNeo-Regular),
+    url(/fonts/AppleSDGothicNeo-Regular.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: AppleSDGothicNeo;
+  src: local(AppleSDGothicNeo-Bold),
+    url(/fonts/AppleSDGothicNeo-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: local(Helvetica),
+    url(/fonts/Helvetica.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: Helvetica;
+  src: local(Helvetica-Bold),
+    url(/fonts/Helvetica-Bold.ttf) format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: NanumBarunGothicOTF;
+  src: local(NanumBarunGothicOTF),
+    url(/fonts//NanumBarunGothicOTF.ttf) format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.Text-Style-3 {
+  font-family: AppleSDGothicNeo;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.77px;
+  color: var(--charcoal);
+}
+
+.Text-Style-10 {
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--bluish);
+}
+
+.Text-Style-8 {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--dull-yellow);
+}
+
+.Text-Style-11 {
+  font-family: Helvetica;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #879292;
+}
+
+.Text-Style-2 {
+  font-family: Helvetica;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #879292;
+}
+
+.Text-Style-7 {
+  font-family: AppleSDGothicNeo;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--warm-grey);
+}
+
+.Text-Style-1 {
+  font-family: NanumBarunGothicOTF;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--greyish-brown);
+}
+
+.Text-Style-5 {
+  font-family: Helvetica;
+  font-size: 11px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.42px;
+  color: #657070;
+}
+
+.Text-Style-4 {
+  font-family: AppleSDGothicNeo;
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.42px;
+  color: #657070;
+}
+
+.Text-Style-9 {
+  font-family: AppleSDGothicNeo;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #879292;
+}
+
+.Text-Style-6 {
+  font-family: Helvetica;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: -0.42px;
+  color: #657070;
+}
+
+.Platinum-2 {
+  width: 76px;
+  height: 18px;
+  margin: 0 17px 6px 0;
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: var(--bluish);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+
+.app {
+  display: flex;
+}

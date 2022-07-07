@@ -1,0 +1,47 @@
+{
+  "game": "G",
+  "win": "W",
+  "losse": "L",
+  "rate": "Win Ratio",
+  "winer": "Victory",
+  "losser": "Defeat",
+  "m": "m",
+  "s": "s",
+  "level": "Level",
+  "P/Kill": "P/Kill",
+  "control_ward": "Control Ward",
+
+  "Top": "Top",
+  "Middle": "Middle",
+  "Jungle": "Jungle",
+  "Bottom": "Bottom",
+  "Support": "Support",
+
+  "baner_placeholder": "Name1,Name2…",
+  "recent": "Recent Search",
+  "favorite": "Favorites",
+
+  "ladder_rank": "Ladder Rank <span>{{rank}}</span> ",
+  "of_top": "<span>{{percent}}%</span> of top",
+  "rank_0": "Solo Rank",
+  "rank_1": "Flex 5:5 Rank",
+  "line_played": "<span1>{{line}}</span1> (total <span2>{{games}}</span2> Played)",
+
+  "Champion_Win_Ratio": "Champion Win Ratio",
+  "Rank_per_week": "Rank win rate per week",
+
+  "champion_name": "{{key}}",
+  "grade": "KDA",
+  "played": " Played",
+
+
+  "total": "Total",
+  "ranked_solo": "Ranked Solo",
+  "ranked_flex": "Ranked Flex",
+  "솔랭": "Ranked Solo",
+  "자유 5:5 랭크": "Flex 5:5 Rank",
+  "일반": "Normal",
+
+  "not_champion": "Not found Champion",
+  "preferred_position": "Preferred Position (Rank)"
+}
